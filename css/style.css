@@ -55,3 +55,9 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.nameheadline {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #212121;
+  text-shadow: #26a69a;
+}

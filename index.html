@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Lauren Ferrett - Portfolio</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +15,7 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo"><img src="img/logo_sm.png" alt="LF"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="https://docs.google.com/document/d/1auH0RZqS_Lu9JoiQTiiKUEtrpSxQIXc3SLfPuyz05Gc/edit?usp=sharing" target="_blank">Resume</a></li>
         <li><a href="https://github.com/LFerrett" target="_blank">GitHub</a></li>
@@ -40,14 +41,13 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="./img/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="./img/background1.jpg" alt="A view from the River Thames in Henley on the eve of the Henley Royal Regatta. Copyright Lauren Ferrett 2018"></div>
   </div>
 
 
   <div class="container">
     <div class="section">
 
-      <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
@@ -61,7 +61,7 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center blue-text"><i class="material-icons">photo_size_select_large</i></h2>
-            <h5 class="center">Digital Content Creator</h5>
+            <h5 class="center">Content Creator</h5>
 
             <p class="light">Experience in all forms of digital media including graphic design, photography, and social media content.</p>
           </div>
@@ -89,25 +89,32 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="./img/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="./img/background2.jpg" alt="Out the window of a plane over the mountains flying into Salt Lake City, Utah. Copyright Lauren Ferrett 2021"></div>
   </div>
 
   <div class="container">
     <div class="section">
-
+     <!-- <div class="carousel">
+        <a class="carousel-item" href="https://lferrett.github.io/my-new-best-friend/" target="_blank"><img src="/img/proj/bestfriend.jpg"></a>
+        <a class="carousel-item" href="https://github.com/LFerrett/code_quiz" target="_blank"><img src="/img/proj/hexyeah.jpg"></a>
+        <a class="carousel-item" href="https://github.com/LFerrett/weather_dashboard" target="_blank"><img src="/img/proj/weather.jpg"></a>
+        <a class="carousel-item" href="https://github.com/LFerrett/dundermifflin_employee_tracker" target="_blank"><img src="/img/proj/employeetracker.jpg"></a>
+        <a class="carousel-item" href="https://github.com/LFerrett/work_day_scheduler" target="blank"><img src="/img/proj/scheduler.jpg"></a>
+      </div> -->
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send blue-text"></i></h3>
           <h4><a name="code">Full Stack Developer</a></h4>
-          <p class="left-align light">Projects from Penn's Full Stack Developer Bootcamp</p>
+          <p class="left-align light">A sample of projects created while attending Penn's Full Stack Developer Bootcamp. For my full body of development work, please visit my <a href="https://github.com/LFerrett/" target="blank">GitHub Profile.</a></p>
           <div class="row">
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center blue-text"><i class="material-icons">code</i></h2>
+               <!-- <h2 class="center blue-text"><i class="material-icons">code</i></h2> -->
                 <h5 class="center">My New Best Friend</h5>
+                <img src="/img/proj/bestfriend.jpg" width="175" height="175">
                 <ul>
-                  <li><a class="blue-text" href="https://lferrett.github.io/my-new-best-friend/" target="_blank">Deployed App</a></li>
-                  <li><a class="blue-text" href="https://github.com/LFerrett/MyNewBestFriend">GitHub Repo</a></li>
+                  <li><a class="blue-text" href="https://lferrett.github.io/my-new-best-friend/" target="_blank">Deployed App <i class="fab fa-github"></i> </a></li>
+                  <li><a class="blue-text" href="https://github.com/LFerrett/MyNewBestFriend"><i class="fab fa-github"></i> GitHub Repo</a></li>
                 </ul>
     <p class="light">An app to help potential adopters find a dog in their area as well as learn about the typical temperaments and age expectancy of the selected breed. Created with the use of the MiniCSS framework, the Petfinder API, and the Dog as a service API (aka The Dog API).</p>
               </div>
@@ -115,19 +122,26 @@
     
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center blue-text"><i class="material-icons">photo_size_select_large</i></h2>
-                <h5 class="center">Digital Content Creator</h5>
-    
-                <p class="light">Experience in all forms of digital media including graphic design, photography, and social media content.</p>
+               <!-- <h2 class="center blue-text"><i class="material-icons">code</i></h2> -->
+                <h5 class="center">Weather Dashboard</h5>
+                <img src="/img/proj/weather.jpg" width="175" height="175">
+                <ul>
+                  <li><a class="blue-text" href="https://lferrett.github.io/weather_dashboard/" target="_blank">Deployed App <i class="fab fa-github"></i> </a></li>
+                  <li><a class="blue-text" href="https://github.com/LFerrett/weather_dashboard" target="_blank"><i class="fab fa-github"></i> GitHub Repo</a></li>
+                </ul>
+                <p class="light">Utilizing the OpenWeather One Call API, the Weather Dashboard is a handy road trip planner, allowing a user to see the weather in a certain city for the next week. Saves and compares refers back to user selected weather using local storage.</p>
               </div>
             </div>
     
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center blue-text"><i class="material-icons">mode_edit</i></h2>
-                <h5 class="center">Writer</h5>
-    
-                <p class="light">Seasoned writer, specializing in sports. Experience writing press releases, feature stories, game recaps, blog style updates and more.</p>
+                <!-- <h2 class="center blue-text"><i class="material-icons">code</i></h2> -->
+                <h5 class="center">Employee Tracker</h5>
+                <img src="/img/proj/employeetracker.jpg" width="175" height="175">
+                <ul>
+                  <li><a class="blue-text" href="https://github.com/LFerrett/dundermifflin_employee_tracker" target="_blank"><i class="fab fa-github"></i> GitHub Repo</a></li>
+                </ul>
+                <p class="light">This app creates a content management system that allows Dunder Mifflin administration to manage the employee directory. Running in the command line, it allows users to view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role.</p>
               </div>
             </div>
           </div>
@@ -146,14 +160,14 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="./img/background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="./img/background3.jpg" alt="Pont Alexandre III bridge in Paris, France. Copyright Lauren Ferrett 2016"></div>
   </div>
 
-  <footer class="page-footer teal">
+  <footer class="page-footer  purple lighten-4">
     <div class="container">
       <div class="row">
         <div class="col l3 s12">
-          <h5 class="white-text">Contact</h5>
+          <h5 class="blue-text darken-3">Contact</h5>
           <ul>
             <li><a class="white-text" href="#!">LFerrett@gmail.com</a></li>
           </ul>
@@ -162,7 +176,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made with <a class="blue-text text-lighten-3" href="http://materializecss.com">Materialize</a>. Content copyright Lauren Ferrett 2022.
+      <p class="blue-grey-text">Content copyright Lauren Ferrett 2022.</p>
       </div>
     </div>
   </footer>
@@ -172,6 +186,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/script.js"></script>
 
   </body>
 </html>

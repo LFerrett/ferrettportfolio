@@ -2,7 +2,7 @@
 
 ## Description
 
-An update of my portfolio including a full set of my top skill sets. Three top projects are added to the Full Stack Development section to showcase what I've been working on in the Penn Coding Bootcamp. 
+An update of my portfolio including a full set of my top skill sets. Four top projects are added to the Full Stack Development section to showcase what I've been working on in the Penn Coding Bootcamp.
 
 ## Table of Contents
 

@@ -10,6 +10,7 @@ An update of my portfolio including a full set of my top skill sets. Three top p
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Questions](#questions)
 
 ## Installation
 
